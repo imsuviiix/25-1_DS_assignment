@@ -124,8 +124,8 @@ max token length를 구하여 LLM 학습 최적화 하기.
 ## cqa.json
 ```
 {
-    "gen_length": 159,
-    "max_length": 256,
+    "gen_length": 1024,  <-- OOM
+    "max_length": 2084,  <-- OOM
     "model_dir": "checkpoints/",
     "model_name": "meta-llama/Llama-3.2-3B",
     "task": "cqa"
