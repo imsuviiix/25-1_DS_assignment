@@ -107,6 +107,7 @@ max token length를 구하여 LLM 학습 최적화 하기.
 ## ToDo
 (사전에 huggingface 계정생성 및 token 생성 및 meta-llama/Llama-3.2-3B 홈페이지에서 모델사용 동의필요.)    
 (사전에 vessel 계정생성 및 워크스페이스 생성 필요.) 
+
 0. vessel 혹은 local에서 워크스페이스를 생성 및 실행한다. (vessel의 경우 gpu1으로만 하기.) 
 1. git clone https://github.com/MaDoKaLiF/25-1-DS-Week-2-Assignment.git
 2. cd 25-1-DS-Week-2-Assignment/Assignment2_problem
