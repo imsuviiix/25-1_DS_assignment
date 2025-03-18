@@ -105,7 +105,7 @@ max token length를 구하여 LLM 학습 최적화 하기.
      그 값을 json에 있는 gen_length,max_length에 넣어주면 끝이다.
 
 ## ToDo
-(사전에 huggingface 계정생성 및 huggface token 생성 및 meta-llama/Llama-3.2-3B 홈페이지에서 모델사용 동의 필요.)
+(사전에 huggingface 계정생성 및 token 생성 및 meta-llama/Llama-3.2-3B 홈페이지에서 모델사용 동의필요.)    
 (사전에 vessel 계정생성 및 워크스페이스 생성 필요.)
 0. vessel 혹은 local에서 워크스페이스를 생성 및 실행한다. (vessel의 경우 gpu1으로만 하기.) 
 1. git clone https://github.com/MaDoKaLiF/25-1-DS-Week-2-Assignment.git
