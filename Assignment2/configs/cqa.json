@@ -1,6 +1,6 @@
 {
-    "gen_length": 256,
-    "max_length": 256,
+    "gen_length": 182,
+    "max_length": 226,
     "model_dir": "checkpoints/",
     "model_name": "meta-llama/Llama-3.2-3B",
     "task": "cqa"
