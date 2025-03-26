@@ -160,5 +160,3 @@ if __name__ == "__main__":
     file_path = Path(__file__).resolve().parent.parent.parent / "tests" / "tests.txt"
     vocab_set, merges = learn_wordpiece_vocab(str(file_path), num_merges=1000, target_vocab_size=1000)
     save_vocab(vocab_set, output_path="src/word_piece_tokenizer/vocab.txt")
-    print("Vocabulary 생성 완료. 총 토큰 수:", len(vocab_set))
-    print("병합 기록 (일부):", merges[:10])
